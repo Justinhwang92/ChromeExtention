@@ -1,3 +1,4 @@
+@import "center.css";
 body {
   background-color: #ecf0f1;
 }
@@ -14,7 +15,7 @@ body {
   color: #7f8c8d;
 }
 
-.form,
+.name,
 .greetings {
   display: none;
 }
@@ -26,7 +27,8 @@ body {
 @keyframes fadeIn {
   from {
     opacity: 0;
-  } to {
+  }
+  to {
     opacity: 1;
   }
 }
